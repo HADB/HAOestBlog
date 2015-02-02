@@ -16,44 +16,45 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
-    <Compile Include="themes\landscape-plus\Gruntfile.js" />
-    <Compile Include="themes\landscape-plus\scripts\fancybox.js" />
-    <Compile Include="themes\landscape-plus\source\fancybox\helpers\jquery.fancybox-buttons.js" />
-    <Compile Include="themes\landscape-plus\source\fancybox\helpers\jquery.fancybox-media.js" />
-    <Compile Include="themes\landscape-plus\source\fancybox\helpers\jquery.fancybox-thumbs.js" />
-    <Compile Include="themes\landscape-plus\source\fancybox\jquery.fancybox.js" />
-    <Compile Include="themes\landscape-plus\source\fancybox\jquery.fancybox.pack.js" />
-    <Compile Include="themes\landscape-plus\source\js\script.js" />
+    <Content Include=".gitignore" />
     <Content Include="package.json" />
     <Content Include="scaffolds\page.md" />
     <Content Include="scaffolds\draft.md" />
     <Content Include="scaffolds\photo.md" />
     <Content Include="scaffolds\post.md" />
-    <Content Include="public\index.html" />
-    <Content Include="source\_posts\hello-world.md" />
-    <Content Include="public\archives\index.html" />
-    <Content Include="public\fancybox\jquery.fancybox.css" />
-    <Content Include="public\fancybox\fancybox_overlay.png" />
-    <Content Include="public\fancybox\fancybox_sprite@2x.png" />
-    <Content Include="public\fancybox\fancybox_sprite.png" />
-    <Content Include="public\fancybox\fancybox_loading.gif" />
-    <Content Include="public\fancybox\fancybox_loading@2x.gif" />
-    <Content Include="public\fancybox\blank.gif" />
-    <Compile Include="public\fancybox\jquery.fancybox.js" />
-    <Compile Include="public\fancybox\jquery.fancybox.pack.js" />
-    <Compile Include="public\js\script.js" />
-    <Content Include="public\css\style.css" />
-    <Content Include="public\archives\2015\index.html" />
-    <Content Include="public\archives\2015\02\index.html" />
-    <Content Include="public\2015\02\01\hello-world\index.html" />
-    <Content Include="public\fancybox\helpers\jquery.fancybox-buttons.css" />
-    <Content Include="public\fancybox\helpers\jquery.fancybox-thumbs.css" />
-    <Content Include="public\fancybox\helpers\fancybox_buttons.png" />
-    <Compile Include="public\fancybox\helpers\jquery.fancybox-buttons.js" />
-    <Compile Include="public\fancybox\helpers\jquery.fancybox-media.js" />
-    <Compile Include="public\fancybox\helpers\jquery.fancybox-thumbs.js" />
-    <Content Include="public\css\fonts\fontawesome-webfont.svg" />
-    <Content Include="public\css\images\banner.jpg" />
+    <Content Include="SOURCE\favicon.ico" />
+    <Content Include="SOURCE\Favicon.png" />
+    <Content Include="source\img\capture-show-1-0-2-6-release-1.jpg" />
+    <Content Include="source\img\capture-show-1-1-141-1.png" />
+    <Content Include="source\img\happy-mid-autumn-festival-2012-1.png" />
+    <Content Include="source\img\happy-new-year-2013-1.png" />
+    <Content Include="source\img\icbc-plugin-cause-blank-line-in-chrome-2.png" />
+    <Content Include="source\img\list-manager-first-release-1.png" />
+    <Content Include="source\img\list-manager-first-release-2.png" />
+    <Content Include="source\img\list-manager-first-release-3.png" />
+    <Content Include="source\img\list-manager-first-release-4.png" />
+    <Content Include="source\img\palette-publish-1.png" />
+    <Content Include="source\img\palette-publish-10.png" />
+    <Content Include="source\img\palette-publish-2.png" />
+    <Content Include="source\img\palette-publish-3.png" />
+    <Content Include="source\img\palette-publish-4.png" />
+    <Content Include="source\img\palette-publish-5.png" />
+    <Content Include="source\img\palette-publish-6.png" />
+    <Content Include="source\img\palette-publish-7.png" />
+    <Content Include="source\img\palette-publish-8.png" />
+    <Content Include="source\img\palette-publish-9.png" />
+    <Content Include="source\_posts\a-special-webpage-for-qrportal.md" />
+    <Content Include="source\_posts\blog-move-success.md" />
+    <Content Include="source\_posts\capture-show-1-0-2-6-release.md" />
+    <Content Include="source\_posts\capture-show-1-1-141.md" />
+    <Content Include="source\_posts\further-improvement-of-the-structure-and-seo.md" />
+    <Content Include="source\_posts\happy-mid-autumn-festival-2012.md" />
+    <Content Include="source\_posts\happy-new-year-2013.md" />
+    <Content Include="source\_posts\list-manager-first-release.md" />
+    <Content Include="source\_posts\new-comment-plugin-duoshuo.md" />
+    <Content Include="source\_posts\new-website-of-haoest.md" />
+    <Content Include="source\_posts\palette-publish.md" />
+    <Content Include="source\_posts\swing-gun.md" />
     <Content Include="themes\landscape-plus\languages\default.yml" />
     <Content Include="themes\landscape-plus\languages\zh-CN.yml" />
     <Content Include="themes\landscape-plus\languages\zh-TW.yml" />
@@ -129,24 +130,11 @@
     <Content Include="_config.yml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="public" />
-    <Folder Include="public\2015" />
-    <Folder Include="public\2015\02" />
-    <Folder Include="public\2015\02\01" />
-    <Folder Include="public\2015\02\01\hello-world" />
-    <Folder Include="public\archives" />
-    <Folder Include="public\archives\2015" />
-    <Folder Include="public\archives\2015\02" />
-    <Folder Include="public\css" />
-    <Folder Include="public\css\fonts" />
-    <Folder Include="public\css\images" />
-    <Folder Include="public\fancybox" />
-    <Folder Include="public\fancybox\helpers" />
-    <Folder Include="public\js" />
     <Folder Include="scaffolds" />
-    <Folder Include="source" />
-    <Folder Include="source\_posts" />
-    <Folder Include="themes" />
+    <Folder Include="source\" />
+    <Folder Include="source\img\" />
+    <Folder Include="source\_posts\" />
+    <Folder Include="themes\" />
     <Folder Include="themes\landscape-plus\" />
     <Folder Include="themes\landscape-plus\languages\" />
     <Folder Include="themes\landscape-plus\layout\" />
@@ -164,6 +152,16 @@
     <Folder Include="themes\landscape-plus\source\fancybox\helpers\" />
     <Folder Include="themes\landscape-plus\source\img\" />
     <Folder Include="themes\landscape-plus\source\js\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="themes\landscape-plus\Gruntfile.js" />
+    <Compile Include="themes\landscape-plus\scripts\fancybox.js" />
+    <Compile Include="themes\landscape-plus\source\fancybox\helpers\jquery.fancybox-buttons.js" />
+    <Compile Include="themes\landscape-plus\source\fancybox\helpers\jquery.fancybox-media.js" />
+    <Compile Include="themes\landscape-plus\source\fancybox\helpers\jquery.fancybox-thumbs.js" />
+    <Compile Include="themes\landscape-plus\source\fancybox\jquery.fancybox.js" />
+    <Compile Include="themes\landscape-plus\source\fancybox\jquery.fancybox.pack.js" />
+    <Compile Include="themes\landscape-plus\source\js\script.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <!--Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them.-->
